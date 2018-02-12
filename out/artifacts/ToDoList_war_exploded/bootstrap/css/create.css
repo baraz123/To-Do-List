@@ -1,0 +1,41 @@
+body
+{
+    background-color: #1b1b1b ;
+    padding-top: 40px;
+}
+.form-signin {
+    max-width: 280px;
+    padding: 15px;
+/*    margin:100px;
+    margin-top:190px;
+    margin-left:200px;*/
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.input-group-addon
+{
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+    color: rgb(255, 255, 255);
+}
+.form-control:focus
+{
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+    color: rgb(255, 255, 255);
+}
+.form-signup input[type="text"],.form-signup input[type="password"] { border: 1px solid rgb(50, 118, 177); }
+.fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://previews.123rf.com/images/vkulieva/vkulieva1602/vkulieva160200007/52452427-Patr-n-sin-fisuras-para-lista-de-tareas-fondo-universales-Foto-de-archivo.jpg');
+    background-repeat:repeat;
+}
