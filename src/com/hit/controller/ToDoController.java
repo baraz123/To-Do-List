@@ -8,6 +8,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import javax.net.ssl.HttpsURLConnection;
+import javax.persistence.Temporal;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -26,7 +27,9 @@ public class ToDoController extends HttpServlet {
         System.out.println(path);
 
         switch (path) {
-
+/**
+*If the user sign in sometime in the past and he still have a cookie, the user will get "welcome message"
+* **/
             case "/login.jsp":
                 Cookie userCookie[];
                 userCookie=request.getCookies();
@@ -39,7 +42,7 @@ public class ToDoController extends HttpServlet {
                         }
                     }
                 }
-                System.out.println(name);
+
                 if (name!=null) {
                     String message = "Welcome " + name;
                     request.setAttribute("messageW", message);
@@ -48,11 +51,12 @@ public class ToDoController extends HttpServlet {
                 dispatcher.forward(request, response);
                 response.sendRedirect("/login.jsp");
                 break;
-
+/**
+ * Because we getting the items list from database it should be in POST method
+ * **/
             case "/todolist.jsp":
               doPost(request,response);
                 break;
-
             case "/logout.jsp":
                 response.sendRedirect("/logout.jsp");
                 break;
@@ -81,7 +85,7 @@ public class ToDoController extends HttpServlet {
                 ArrayList<ArrayList<String>> sessions=new ArrayList<>();
                        sessions=SessionsListener.getListFinal();
                 request.setAttribute("sessions",sessions);
-                System.out.println(SessionsListener.getTotalActiveSessions());
+
                 dispatcher=request.getRequestDispatcher("/administrator.jsp");
                 dispatcher.forward(request,response);
                 break;
@@ -143,20 +147,18 @@ public class ToDoController extends HttpServlet {
                 String email = request.getParameter("email");
                 String phone = request.getParameter("phone");
                 String message;
-                System.out.println("succeess 1");
-                System.out.println(username);
-
                     User u = HibernateToDoListDAO.getInstance().GetUser(username);
-                System.out.println("succeess 2");
+
 
                 if (u == null) {
-                    System.out.println("succeess 3");
+
                     HibernateToDoListDAO.getInstance().Register(username, firstname, lastname, email, phone, passR);
-                    System.out.println("succeess 4");
                     message = "New User created successfully";
                     Cookie cookie = new Cookie("username", username);
                     cookie.setMaxAge(6000);
                     response.addCookie(cookie);
+                    dispatcher = request.getRequestDispatcher("/login.jsp");
+                    dispatcher.forward(request, response);
                 }
                 else{
                     message="User is already Exists";
@@ -167,7 +169,7 @@ public class ToDoController extends HttpServlet {
 
                 break;
             case "/create.jsp":
-                System.out.println("hi");
+
                 HttpSession session=request.getSession(true);
                 String title = request.getParameter("title");
                 String description = request.getParameter("description");
@@ -180,7 +182,7 @@ public class ToDoController extends HttpServlet {
 //surround below line with try catch block as below code throws checked exception
                 try {
                     startDate = sdf.parse(date);
-                    System.out.println(startDate +" startdate");
+
                 } catch (ParseException e) {
 
                     message = "Something wrong with the date frame";
@@ -215,7 +217,7 @@ public class ToDoController extends HttpServlet {
     case "/todolist.jsp":
         session= request.getSession(true);
         List<Item> items = HibernateToDoListDAO.getInstance().GetItemList(session.getAttribute("username").toString());
-        System.out.println(request.getParameter("param1"));
+
         List<Item> it=null;
         if(request.getParameter("param1")!=null && items!=null ) {
             if (request.getParameter("param1").equals("completed")) {
@@ -252,13 +254,13 @@ public class ToDoController extends HttpServlet {
         String imp  = request.getParameter("levelofimportance");
          date =  request.getParameter("date");
         String status= request.getParameter("status");
-System.out.println(title+" "+desc+" "+imp+" "+date+" "+status);
+
          sdf = new SimpleDateFormat("MM/dd/yyyy hh:mm aa");
          startDate=null;
 //surround below line with try catch block as below code throws checked exception
         try {
             startDate = sdf.parse(date);
-            System.out.println(startDate +" startdate");
+
         } catch (ParseException e) {
             message = "Something wrong with this update you made";
             request.setAttribute("excmessage", message);
@@ -266,9 +268,9 @@ System.out.println(title+" "+desc+" "+imp+" "+date+" "+status);
             dispatcher.forward(request, response);
             e.printStackTrace();
         }
-        System.out.println(id+ " "+ title +" "+ desc+ " "+ imp);
+
         HibernateToDoListDAO.getInstance().UpdateItem(id,title,Integer.parseInt(imp),desc,startDate, status);
-        System.out.println("created");
+
         message = "Item Updated successfully";
         request.setAttribute("message", message);
         dispatcher=request.getRequestDispatcher("/edit.jsp");
