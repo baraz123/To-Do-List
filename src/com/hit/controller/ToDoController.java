@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import javax.net.ssl.HttpsURLConnection;
 import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
@@ -77,7 +78,8 @@ public class ToDoController extends HttpServlet {
                 doPost(request,response);
                 break;
             case "/administrator.jsp":
-                HashMap<String,String> sessions=SessionsListener.getSessionA();
+                ArrayList<ArrayList<String>> sessions=new ArrayList<>();
+                       sessions=SessionsListener.getList();
                 request.setAttribute("sessions",sessions);
                 System.out.println(SessionsListener.getTotalActiveSessions());
                 dispatcher=request.getRequestDispatcher("/administrator.jsp");
@@ -99,17 +101,18 @@ public class ToDoController extends HttpServlet {
         case "/authentication.jsp":
             String user = request.getParameter("username");
             String pass = request.getParameter("password");
-            String remember =request.getParameter("remember");
-            System.out.println(user);
-            System.out.println(pass);
             boolean res = HibernateToDoListDAO.getInstance().Login(user, pass);
 
             if (res) {
                 HttpSession session= request.getSession(true);
+                ServletContext app = session.getServletContext();
                 User Existuser=HibernateToDoListDAO.getInstance().GetUser(user);
                 session.setAttribute("username", Existuser.getUserName());
                 session.setAttribute("firstname", Existuser.getFirstname());
                 session.setAttribute("lastname", Existuser.getLastname());
+                app.setAttribute("username", Existuser.getUserName());
+                app.setAttribute("firstname", Existuser.getFirstname());
+                app.setAttribute("lastname", Existuser.getLastname());
                 session.setMaxInactiveInterval(30*60);
                 Cookie username = new Cookie("username",user);
                 username.setMaxAge(6000);
@@ -134,7 +137,7 @@ public class ToDoController extends HttpServlet {
                 String passR = request.getParameter("password");
                 String email = request.getParameter("email");
                 String phone = request.getParameter("phone");
-                String message = null;
+                String message;
                 System.out.println("succeess 1");
                 System.out.println(username);
 

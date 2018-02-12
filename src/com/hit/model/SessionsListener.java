@@ -1,9 +1,12 @@
 package com.hit.model;
 
+import javax.servlet.ServletContext;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class SessionsListener implements HttpSessionListener {
 
@@ -14,10 +17,9 @@ public class SessionsListener implements HttpSessionListener {
     private String active;
 
 
-    private static HashMap<String, String> sessionA=new HashMap<>();
-
-    public static HashMap<String, String> getSessionA() {
-        return sessionA;
+    private static ArrayList<ArrayList<String>> listFinal = new ArrayList<>();
+    public static ArrayList<ArrayList<String>> getList() {
+        return listFinal;
     }
 
     public static int getTotalActiveSessions(){
@@ -29,10 +31,17 @@ public class SessionsListener implements HttpSessionListener {
 
         System.out.println("Session has been created");
         HttpSession session = httpSessionEvent.getSession();
+        ServletContext Atributes = session.getServletContext();
         System.out.println(session + " Created");
-        System.out.println("ID= "+ session.getId() + " MaxInactiveInterval=" + session.getMaxInactiveInterval());
+        System.out.println("ID= "+ session.getId() + " MaxInactiveInterval=" + session.getMaxInactiveInterval() +Atributes.getAttribute("username"));
         totalActiveSessions++;
-        sessionA.put(session.getId(),"Active");
+        ArrayList list = new ArrayList();
+        list.add(session.getId());
+        list.add(session.getMaxInactiveInterval());
+        if (Atributes.getAttribute("username")!=null)
+        list.add(Atributes.getAttribute("username"));
+        list.add("Active");
+        listFinal.add(list);
     }
 
     @Override
@@ -40,11 +49,17 @@ public class SessionsListener implements HttpSessionListener {
 
         System.out.println("Session Destroyed has been called");
         HttpSession session = httpSessionEvent.getSession();
+        ServletContext Atributes = session.getServletContext();
         System.out.println(session + " Destroyed");
-        System.out.println("ID= "+ session.getId() + " MaxInactiveInterval=" + session.getMaxInactiveInterval());
+        System.out.println("ID= "+ session.getId() + " MaxInactiveInterval=" + session.getMaxInactiveInterval() + Atributes.getAttribute("username"));
         totalActiveSessions--;
-        sessionA.remove(session.getId());
-        sessionA.put(session.getId(),"Inactive");
+        ArrayList list = new ArrayList();
+        list.add(session.getId());
+        list.add(session.getMaxInactiveInterval());
+        if (Atributes.getAttribute("username")!=null)
+            list.add(Atributes.getAttribute("username"));
+        list.add("Inactive");
+        listFinal.add(list);
 
 
 
