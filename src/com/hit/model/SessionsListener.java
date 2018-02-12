@@ -44,14 +44,15 @@ public class SessionsListener implements HttpSessionListener {
         System.out.println("ID= "+ session.getId() + " MaxInactiveInterval=" + session.getMaxInactiveInterval() + Atributes.getAttribute("username"));
         totalActiveSessions--;
         ArrayList list = new ArrayList();
-        list.add(session.getId());
-        list.add(session.getMaxInactiveInterval());
-        if (Atributes.getAttribute("username")!=null)
-            list.add(Atributes.getAttribute("username"));
+        list.add("SessionID: "+session.getId());
+        list.add("MaxInactiveInterval: "+Integer.toString(session.getMaxInactiveInterval()));
+        if (Atributes.getAttribute("username")!=null) {
+            list.add("username: " + Atributes.getAttribute("username").toString());
+            list.add("firstname: "+Atributes.getAttribute("firstname").toString());
+            list.add("lastname: "+Atributes.getAttribute("lastname").toString());
+        }
         list.add("Inactive");
         listFinal.add(list);
-
-
 
     }
 

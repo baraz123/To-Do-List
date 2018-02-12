@@ -78,14 +78,22 @@ public class ToDoController extends HttpServlet {
                 dispatcher=request.getRequestDispatcher("/edit.jsp");
                 dispatcher.forward(request,response);
                 break;
+ /**
+  * In delete action there's interaction with database
+  * **/
             case "/delete.jsp":
                 doPost(request,response);
                 break;
+
+  /**
+   * Administrator - monitoring Session's activity
+   * */
             case "/administrator.jsp":
                 ArrayList<ArrayList<String>> sessions=new ArrayList<>();
+                 int activeusers = SessionsListener.getTotalActiveSessions();
                        sessions=SessionsListener.getListFinal();
+                request.setAttribute("active",activeusers);
                 request.setAttribute("sessions",sessions);
-
                 dispatcher=request.getRequestDispatcher("/administrator.jsp");
                 dispatcher.forward(request,response);
                 break;
@@ -102,27 +110,40 @@ public class ToDoController extends HttpServlet {
         System.out.println(path + "post");
     switch (path) {
 
+/**
+* authentication - confirm certification details with database
+**/
         case "/authentication.jsp":
             String user = request.getParameter("username");
             String pass = request.getParameter("password");
+            System.out.println(user);
+            System.out.println(pass);
             boolean res = HibernateToDoListDAO.getInstance().Login(user, pass);
-
+/**
+ * If the user exists in the system we will open a session with a session attribute of his details
+ * */
             if (res) {
                 HttpSession session= request.getSession(true);
+                System.out.println("certification confirmed");
                 ArrayList<String> sessionCreated=new ArrayList<>();
                 ServletContext app = session.getServletContext();
                 User Existuser=HibernateToDoListDAO.getInstance().GetUser(user);
                 session.setAttribute("username", Existuser.getUserName());
-                session.setAttribute("firstname", Existuser.getFirstname());
-                session.setAttribute("lastname", Existuser.getLastname());
                 app.setAttribute("username", Existuser.getUserName());
                 app.setAttribute("firstname", Existuser.getFirstname());
                 app.setAttribute("lastname", Existuser.getLastname());
                 session.setMaxInactiveInterval(30*60);
-                sessionCreated.add(session.getId());
-                sessionCreated.add(Integer.toString(session.getMaxInactiveInterval()));
-                sessionCreated.add(app.getAttribute("username").toString());
+/**
+ * Session has been created so adding it to administrator list
+ * */
+                sessionCreated.add("SessionID: "+session.getId());
+                sessionCreated.add("MaxInactiveInterval: "+Integer.toString(session.getMaxInactiveInterval()));
+                sessionCreated.add("username: "+app.getAttribute("username").toString());
+                sessionCreated.add("firstname: "+app.getAttribute("firstname").toString());
+                sessionCreated.add("lastname: "+app.getAttribute("lastname").toString());
+                sessionCreated.add("Start Activity: "+session.getCreationTime());
                 SessionsListener.getListFinal().add(sessionCreated);
+
                 Cookie username = new Cookie("username",user);
                 username.setMaxAge(6000);
                 response.addCookie(username);
