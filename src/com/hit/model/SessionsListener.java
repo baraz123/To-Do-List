@@ -18,9 +18,6 @@ public class SessionsListener implements HttpSessionListener {
 
 
     private static ArrayList<ArrayList<String>> listFinal = new ArrayList<>();
-    public static ArrayList<ArrayList<String>> getList() {
-        return listFinal;
-    }
 
     public static int getTotalActiveSessions(){
         return totalActiveSessions;
@@ -35,13 +32,6 @@ public class SessionsListener implements HttpSessionListener {
         System.out.println(session + " Created");
         System.out.println("ID= "+ session.getId() + " MaxInactiveInterval=" + session.getMaxInactiveInterval() +Atributes.getAttribute("username"));
         totalActiveSessions++;
-        ArrayList list = new ArrayList();
-        list.add(session.getId());
-        list.add(session.getMaxInactiveInterval());
-        if (Atributes.getAttribute("username")!=null)
-        list.add(Atributes.getAttribute("username"));
-        list.add("Active");
-        listFinal.add(list);
     }
 
     @Override
@@ -64,4 +54,13 @@ public class SessionsListener implements HttpSessionListener {
 
 
     }
+
+
+    public static ArrayList<ArrayList<String>> getListFinal() {
+        return listFinal;
+    }
+    public static void setListFinal(ArrayList<ArrayList<String>> listFinal) {
+        SessionsListener.listFinal = listFinal;
+    }
+
 }

@@ -79,7 +79,7 @@ public class ToDoController extends HttpServlet {
                 break;
             case "/administrator.jsp":
                 ArrayList<ArrayList<String>> sessions=new ArrayList<>();
-                       sessions=SessionsListener.getList();
+                       sessions=SessionsListener.getListFinal();
                 request.setAttribute("sessions",sessions);
                 System.out.println(SessionsListener.getTotalActiveSessions());
                 dispatcher=request.getRequestDispatcher("/administrator.jsp");
@@ -105,6 +105,7 @@ public class ToDoController extends HttpServlet {
 
             if (res) {
                 HttpSession session= request.getSession(true);
+                ArrayList<String> sessionCreated=new ArrayList<>();
                 ServletContext app = session.getServletContext();
                 User Existuser=HibernateToDoListDAO.getInstance().GetUser(user);
                 session.setAttribute("username", Existuser.getUserName());
@@ -114,6 +115,10 @@ public class ToDoController extends HttpServlet {
                 app.setAttribute("firstname", Existuser.getFirstname());
                 app.setAttribute("lastname", Existuser.getLastname());
                 session.setMaxInactiveInterval(30*60);
+                sessionCreated.add(session.getId());
+                sessionCreated.add(Integer.toString(session.getMaxInactiveInterval()));
+                sessionCreated.add(app.getAttribute("username").toString());
+                SessionsListener.getListFinal().add(sessionCreated);
                 Cookie username = new Cookie("username",user);
                 username.setMaxAge(6000);
                 response.addCookie(username);
