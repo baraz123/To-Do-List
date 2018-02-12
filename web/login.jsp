@@ -40,9 +40,7 @@
                         <div class="form-group">
                                 <input type="password" placeholder="Enter Password..." name="password" required>
                         </div><!-- Form Group-->
-                      <%--  <div class="checkbox">
-                            <label><input type="checkbox" name="remember"> Remember me</label>
-                        </div>--%>
+
                                 <input type="submit" name="" class="btn btn-success btn-lg btn-block" value="Login">
                            </form>
 
