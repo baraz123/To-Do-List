@@ -14,7 +14,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <meta http-equiv="refresh" content="${pageContext.session.maxInactiveInterval};url=error.jsp?type=timeout" />
+    <meta http-equiv="refresh" content="${pageContext.session.maxInactiveInterval};url=exception.jsp?type=timeout" />
     <c:choose>
         <c:when test="${param.type == 'timeout'}">
             <p>Your session has been timed out.</p>

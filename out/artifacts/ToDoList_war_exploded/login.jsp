@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8"  language="java" import="java.util.*" %>
+<%@ page contentType="text/html;charset=UTF-8"  language="java" import="java.util.*" session="false" %>
 <html>
 <head>
     <meta http-equiv="Content-Type" charset=UTF-8">
@@ -40,9 +40,7 @@
                         <div class="form-group">
                                 <input type="password" placeholder="Enter Password..." name="password" required>
                         </div><!-- Form Group-->
-                      <%--  <div class="checkbox">
-                            <label><input type="checkbox" name="remember"> Remember me</label>
-                        </div>--%>
+
                                 <input type="submit" name="" class="btn btn-success btn-lg btn-block" value="Login">
                            </form>
 

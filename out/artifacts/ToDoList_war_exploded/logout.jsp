@@ -15,8 +15,9 @@
 <body>
 <%
     String user = null;
+    ServletContext app = session.getServletContext();
     if(session.getAttribute("username") == null){
-        response.sendRedirect("/login.jsp");
+        response.sendRedirect("/servlets/login.jsp");
     }else user = (String) session.getAttribute("username");
     String userName = null;
     String sessionID = null;
@@ -30,6 +31,9 @@
     session.removeAttribute("username");
     session.removeAttribute("password");
     session.invalidate();
+    app.removeAttribute("username");
+    app.removeAttribute("password");
+
 
 %>
 
