@@ -18,7 +18,6 @@
     <script src="/bootstrap/js/moment.js"></script>
     <script src="/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap-datetimepicker-standalone.css">
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap-datetimepicker.css">
     <link rel="stylesheet" href="/bootstrap/css/bootstrap-datetimepicker.min.css">
     <title>Edit</title>
 </head>
@@ -93,7 +92,7 @@
                                         <input type='text' class="form-control" name="date" placeholder="${date}"
                                                value="${date}" required/>
                                         <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-calendar">
+                    <span class="fa fa-calendar">
                     </span>
                 </span>
                                     </div>
@@ -101,6 +100,13 @@
                                 <script type="text/javascript">
                                     $(function () {
                                         $('#datetimepicker11').datetimepicker({
+
+                                            icons: {
+                                                time: "fa fa-clock-o",
+                                                date: "fa fa-calendar",
+                                                up: "fa fa-arrow-up",
+                                                down: "fa fa-arrow-down"
+                                            },
                                             daysOfWeekDisabled: [0, 6]
                                         });
                                     });

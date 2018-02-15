@@ -206,7 +206,6 @@ public class ToDoController extends HttpServlet {
                 String description = request.getParameter("description");
                 String importance = request.getParameter("levelofimportance");
                 String date = request.getParameter("date");
-                //String startDateStr = request.getParameter("startDate");
 
                 SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy hh:mm aa");
                 Date startDate = null;

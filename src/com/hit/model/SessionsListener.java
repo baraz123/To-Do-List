@@ -34,8 +34,6 @@ public class SessionsListener implements HttpSessionListener {
      */
     @Override
     public void sessionCreated(HttpSessionEvent httpSessionEvent) {
-        HttpSession session = httpSessionEvent.getSession();
-        ServletContext Atributes = session.getServletContext();
         totalActiveSessions++;
     }
 

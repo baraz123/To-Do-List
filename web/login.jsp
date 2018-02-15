@@ -28,7 +28,7 @@
 <div data-role="page">
     <div data-role="header">
         <h1>${messageR}</h1>
-        <h3 class="error">${message}</h3>
+        <h3>${message}</h3>
     </div>
     <div data-role="content">
         <div class="container" style="margin-top: 100px" ;>

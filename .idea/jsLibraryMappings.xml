@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$" libraries="{bootstrap, jquery-1.11.1, jquery-3.2.1, jquery-3.2.1.slim, jquery.mobile-1.4.5, popper}" />
+    <file url="file://$PROJECT_DIR$" libraries="{bootstrap, jquery, jquery-1.11.1, jquery-3.2.1, jquery-3.2.1.slim, jquery.mobile-1.4.5, popper}" />
     <file url="PROJECT" libraries="{jQuery UI-1.10.2, jQuery-2.0.0, jpm-DefinitelyTyped, jquery-1.11.1, jquery-DefinitelyTyped, jquery.mobile-1.4.5, jquerymobile-DefinitelyTyped}" />
   </component>
 </project>

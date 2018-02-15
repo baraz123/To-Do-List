@@ -6,9 +6,7 @@ import org.hibernate.cfg.AnnotationConfiguration;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-/*
-    Bar Azoulay 203107461
-*/
+
 
 public class HibernateToDoListDAO implements IToDoListDAO {
     private static HibernateToDoListDAO hiberInstance = new HibernateToDoListDAO();

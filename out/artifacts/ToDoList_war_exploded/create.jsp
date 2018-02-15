@@ -94,7 +94,7 @@
                                         <div class='input-group date' id='datetimepicker11'>
                                             <input type='text' class="form-control" name="date" required/>
                                             <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-calendar">
+                    <span class="fa fa-calendar">
                     </span>
                 </span>
                                         </div>
@@ -102,6 +102,13 @@
                                     <script type="text/javascript">
                                         $(function () {
                                             $('#datetimepicker11').datetimepicker({
+
+                                                icons: {
+                                                    time: "fa fa-clock-o",
+                                                    date: "fa fa-calendar",
+                                                    up: "fa fa-arrow-up",
+                                                    down: "fa fa-arrow-down"
+                                                },
                                                 daysOfWeekDisabled: [0, 6]
                                             });
                                         });
