@@ -10,8 +10,8 @@
 <head>
     <title>Page Redirection</title>
 </head>
-<div data-role="page">
 <body>
+<div data-role="page">
 
     <h1>Page Redirection</h1>
 </div>

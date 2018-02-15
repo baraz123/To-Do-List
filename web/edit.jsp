@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link rel ="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="/bootstrap/css/create.css">
     <link rel="stylesheet" href="/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
@@ -25,128 +25,117 @@
 <body>
 <div data-role="page">
     <div data-role="header">
-<%
+        <%
 
-    String user = null;
-    if(session.getAttribute("username") == null){
-        response.sendRedirect("/servlets/login.jsp");
-    }else user = (String) session.getAttribute("username");
-    String userName = null;
-    String sessionID = null;
-    Cookie[] cookies = request.getCookies();
-    if(cookies !=null){
-        for(Cookie cookie : cookies){
-            if(cookie.getName().equals("username")) userName = cookie.getValue();
-            if(cookie.getName().equals("JSESSIONID")) sessionID = cookie.getValue();
-        }
-    }
+            String user = null;
+            if (session.getAttribute("username") == null) {
+                response.sendRedirect("/servlets/login.jsp");
+            } else user = (String) session.getAttribute("username");
+            String userName = null;
+            String sessionID = null;
+            Cookie[] cookies = request.getCookies();
+            if (cookies != null) {
+                for (Cookie cookie : cookies) {
+                    if (cookie.getName().equals("username")) userName = cookie.getValue();
+                    if (cookie.getName().equals("JSESSIONID")) sessionID = cookie.getValue();
+                }
+            }
 
-%>
+        %>
     </div>
     <div data-role="content">
-<div id="fullscreen_bg" class="fullscreen_bg">
-    <div class="container">
-        <div class="row">
-            ${message}
-                <div class="panel panel-default" style="margin: auto">
-                    <div class="panel-body">
-<form action="/servlets/edit.jsp" method="post" class="form-signin">
+        <div id="fullscreen_bg" class="fullscreen_bg">
+            <div class="container">
+                <div class="row">
+                    ${message}
+                    <div class="panel panel-default" style="margin: auto">
+                        <div class="panel-body">
+                            <form action="/servlets/edit.jsp" method="post" class="form-signin">
 
-            <H3 class="text-center">Edit Item</H3>
+                                <H3 class="text-center">Edit Item</H3>
 
 
-
-            <div class="form-group">
-                <div class="input-group">
+                                <div class="form-group">
+                                    <div class="input-group">
         <span class="input-group-addon"><span class="glyphicon-pencil"></span>
         </span>
-                    <input type="text" class="form-control" name="title" placeholder="${title}" value="${title}">
-                </div>
-            </div>
+                                        <input type="text" class="form-control" name="title" placeholder="${title}"
+                                               value="${title}" required>
+                                    </div>
+                                </div>
 
 
-
-            <div class="form-group">
-                <div class="input-group">
+                                <div class="form-group">
+                                    <div class="input-group">
         <span class="input-group-addon"><span class="glyphicon-pencil"></span>
         </span>
-                    <input type="text" class="form-control" name="description" placeholder="${desc}" value="${desc}">
-                </div>
-            </div>
+                                        <input type="text" class="form-control" name="description" placeholder="${desc}"
+                                               value="${desc}" required>
+                                    </div>
+                                </div>
 
 
-
-
-            <div class="form-group">
-                <div class="input-group">
+                                <div class="form-group">
+                                    <div class="input-group">
         <span class="input-group-addon"><span class="glyphicon-pencil"></span>
         </span>
-                    <select name="levelofimportance" class="form-control">
-                        <option  value="0">Less Important</option>
-                        <option  value="1">Important</option>
-                        <option  value="2">Very Important</option>
-                    </select>
-                </div>
-            </div>
+                                        <select name="levelofimportance" class="form-control" required>
+                                            <option value="0">Less Important</option>
+                                            <option value="1">Important</option>
+                                            <option value="2">Very Important</option>
+                                        </select>
+                                    </div>
+                                </div>
 
 
-
-
-            <div class="form-group">
-                <div class='input-group date' id='datetimepicker11'>
-                    <input type='text' class="form-control" name="date" placeholder="${date}" value="${date}"/>
-                    <span class="input-group-addon">
+                                <div class="form-group">
+                                    <div class='input-group date' id='datetimepicker11'>
+                                        <input type='text' class="form-control" name="date" placeholder="${date}"
+                                               value="${date}" required/>
+                                        <span class="input-group-addon">
                     <span class="glyphicon glyphicon-calendar">
                     </span>
                 </span>
-                </div>
-            </div>
-            <script type="text/javascript">
-                $(function () {
-                    $('#datetimepicker11').datetimepicker({
-                        daysOfWeekDisabled: [0, 6]
-                    });
-                });
-            </script>
+                                    </div>
+                                </div>
+                                <script type="text/javascript">
+                                    $(function () {
+                                        $('#datetimepicker11').datetimepicker({
+                                            daysOfWeekDisabled: [0, 6]
+                                        });
+                                    });
+                                </script>
 
 
-
-
-
-            <div class="form-group">
-                <div class="input-group">
+                                <div class="form-group">
+                                    <div class="input-group">
         <span class="input-group-addon"><span class="glyphicon-pencil"></span>
         </span>
-                    <select name="status" class="form-control">
-                        <option  value="pending">Not finish yet</option>
-                        <option  value="completed">Finish</option>
-                    </select>
-                </div>
-            </div>
+                                        <select name="status" class="form-control">
+                                            <option value="pending">Not finish yet</option>
+                                            <option value="completed">Finish</option>
+                                        </select>
+                                    </div>
+                                </div>
 
 
+                                <div class="form-group">
+                                    <label for="element-4">&nbsp;</label>
+                                    <input type="submit" id="element-4" value="Update item"
+                                           class="btn btn-sm btn-primary btn-block">
+                                </div>
 
-            <div class="form-group">
-                <label for="element-4">&nbsp;</label>
-                <input type="submit" id="element-4" value="Update item" class="btn btn-sm btn-primary btn-block">
-            </div>
 
-
-
-    <form action="/servlets/logout.jsp" method="get">
-        <button type="submit">Logout</button>
-    </form>
-
-</form>
-<form action="/servlets/todolist.jsp" method="post">
-    <button class="badge badge-secondary" type="submit">Back to Home-Page</button>
-</form>
+                            </form>
+                            <form action="/servlets/todolist.jsp" method="post">
+                                <button class="badge badge-secondary" type="submit">Back to Home-Page</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
 </div>
 </body>
 </html>

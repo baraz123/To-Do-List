@@ -10,7 +10,6 @@ public class User {
     @Id
     @Column (name = "username", nullable = false)
     private String username;
-
     @Column (name = "password")
     private String password;
     @Column (name = "email")

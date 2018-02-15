@@ -7,11 +7,10 @@
 --%>
 
 
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link rel ="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="/bootstrap/css/create.css">
     <link rel="stylesheet" href="/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
@@ -29,123 +28,111 @@
 <body>
 <div data-role="page">
     <div data-role="header">
-<%
+        <%
 
-    String user = null;
-    if(session.getAttribute("username") == null){
-        response.sendRedirect("/servlets/login.jsp");
-    }else user = (String) session.getAttribute("username");
-    String userName = null;
-    String sessionID = null;
-    Cookie[] cookies = request.getCookies();
-    if(cookies !=null){
-        for(Cookie cookie : cookies){
-            if(cookie.getName().equals("username")) userName = cookie.getValue();
-            if(cookie.getName().equals("JSESSIONID")) sessionID = cookie.getValue();
-        }
-    }
+            String user = null;
+            if (session.getAttribute("username") == null) {
+                response.sendRedirect("/servlets/login.jsp");
+            } else user = (String) session.getAttribute("username");
+            String userName = null;
+            String sessionID = null;
+            Cookie[] cookies = request.getCookies();
+            if (cookies != null) {
+                for (Cookie cookie : cookies) {
+                    if (cookie.getName().equals("username")) userName = cookie.getValue();
+                    if (cookie.getName().equals("JSESSIONID")) sessionID = cookie.getValue();
+                }
+            }
 
-%>
+        %>
     </div>
     <div data-role="content">
-<div id="fullscreen_bg" class="fullscreen_bg">
-    <div class="container">
-        <div class="row">
-<form action="/servlets/create.jsp" method="post" class="form-signin">
+        <div id="fullscreen_bg" class="fullscreen_bg">
+            <div class="container">
+                <div class="row">
+                    <form action="/servlets/create.jsp" method="post" class="form-signin">
 
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <H3 class="text-center">Adding New Item</H3>
-${message}
-<form action="/servlets/create.jsp" method="post" class="form form-signup" role="form">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <H3 class="text-center">Adding New Item</H3>
+                                ${message}
+                                <form action="/servlets/create.jsp" method="post" class="form form-signup" role="form">
 
-    <div class="form-group">
-        <div class="input-group">
+                                    <div class="form-group">
+                                        <div class="input-group">
         <span class="input-group-addon"><span class="glyphicon-pencil"></span>
         </span>
-        <input type="text" class="form-control" name="title" placeholder="Title">
-    </div>
-    </div>
+                                            <input type="text" class="form-control" name="title" placeholder="Title"
+                                                   required>
+                                        </div>
+                                    </div>
 
 
-    <div class="form-group">
-        <div class="input-group">
+                                    <div class="form-group">
+                                        <div class="input-group">
         <span class="input-group-addon"><span class="glyphicon-pencil"></span>
         </span>
-            <input type="text" class="form-control" name="description" placeholder="description">
-        </div>
-    </div>
+                                            <input type="text" class="form-control" name="description"
+                                                   placeholder="description" required>
+                                        </div>
+                                    </div>
 
 
-
-
-    <div class="form-group">
-        <div class="input-group">
+                                    <div class="form-group">
+                                        <div class="input-group">
         <span class="input-group-addon"><span class="glyphicon-pencil"></span>
         </span>
-            <select name="levelofimportance" class="form-control">
-                <option  value="0">Less Important</option>
-                <option  value="1">Important</option>
-                <option  value="2">Very Important</option>
-            </select>
-        </div>
-    </div>
+                                            <select name="levelofimportance" class="form-control" required>
+                                                <option value="0">Less Important</option>
+                                                <option value="1">Important</option>
+                                                <option value="2">Very Important</option>
+                                            </select>
+                                        </div>
+                                    </div>
 
-   <%-- <div class="form-group">
-        <div class="input-group">
-        <span class="input-group-addon"><span class="glyphicon-pencil"></span>
-        </span>
-            <input type="text" class="form-control" name="date" placeholder="Date">
-        </div>
-    </div>--%>
-
-<%--
-    <script src="<%=request.getContextPath()%>/bootstraps"></script>
---%>
-            <div class="form-group">
-                <div class='input-group date' id='datetimepicker11'>
-                    <input type='text' class="form-control" name="date"/>
-                    <span class="input-group-addon">
+                                    <div class="form-group">
+                                        <div class='input-group date' id='datetimepicker11'>
+                                            <input type='text' class="form-control" name="date" required/>
+                                            <span class="input-group-addon">
                     <span class="glyphicon glyphicon-calendar">
                     </span>
                 </span>
-                </div>
+                                        </div>
+                                    </div>
+                                    <script type="text/javascript">
+                                        $(function () {
+                                            $('#datetimepicker11').datetimepicker({
+                                                daysOfWeekDisabled: [0, 6]
+                                            });
+                                        });
+                                    </script>
+
+
+                                    <%--
+                                        <script src="<%=request.getContextPath()%>bootstrap/js/bootstrap-datetimepicker.js"></script>
+                                    --%>
+
+
+                                    <div class="form-group">
+                                        <label for="element-4">&nbsp;</label>
+                                        <input type="submit" id="element-4" value="addItem"
+                                               class="btn btn-sm btn-primary btn-block">
+                                    </div>
+
+                                </form>
+
+                                <form action="/servlets/todolist.jsp" method="post">
+                                    <button class="badge badge-secondary" type="submit">Back to Home-Page</button>
+                                </form>
+                            </div><!--Panel body-->
+                        </div><!--Default-->
+                    </form>
+                </div><!--row-->
             </div>
-        <script type="text/javascript">
-            $(function () {
-                $('#datetimepicker11').datetimepicker({
-                    daysOfWeekDisabled: [0, 6]
-                });
-            });
-        </script>
-
-
-<%--
-    <script src="<%=request.getContextPath()%>bootstrap/js/bootstrap-datetimepicker.js"></script>
---%>
-
-
-
-    <div class="form-group">
-        <label for="element-4">&nbsp;</label>
-        <input type="submit" id="element-4" value="addItem" class="btn btn-sm btn-primary btn-block">
+        </div>
     </div>
+    <div data-role="footer">
 
-</form>
-                <form action="/servlets/logout.jsp" method="get">
-
-                    <button type="submit">Logout</button>
-                </form>
-
-                <form action="/servlets/todolist.jsp" method="post">
-                    <button class="badge badge-secondary" type="submit">Back to Home-Page</button>
-                </form>
-            </div><!--Panel body-->
-        </div><!--Default-->
-</form>
-        </div><!--row-->
-    </div>
-</div>
     </div>
 </div>
 </body>

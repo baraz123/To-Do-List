@@ -7,9 +7,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6efb883-0a23-4b0c-9b4a-0a9a04864835" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/controller/MyFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/bootstrap/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/hit/controller/MyFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hit/controller/MyFilter.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/contact.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ToDoList/hibernate.cfg example.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/contact.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/controller/ToDoController.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/controller/ToDoController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/model/HibernateToDoListDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/model/HibernateToDoListDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/model/Item.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/model/Item.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/model/JDBC.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/model/JDBC.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/model/SessionsListener.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/model/SessionsListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/model/User.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/hit/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToDoList/com/hit/controller/ToDoController.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/hit/controller/ToDoController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToDoList/com/hit/model/HibernateToDoListDAO.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/hit/model/HibernateToDoListDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToDoList/com/hit/model/Item.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/hit/model/Item.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToDoList/com/hit/model/JDBC.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/hit/model/JDBC.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToDoList/com/hit/model/SessionsListener.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/hit/model/SessionsListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToDoList/com/hit/model/User.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/hit/model/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/Register.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/Register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/administrator.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/administrator.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/authentication.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/authentication.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/create.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/create.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/delete.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/delete.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/edit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/exception.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/exception.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jquery.mobile-1.4.5/demos/js/jquery.mobile-1.4.5.js" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jquery.mobile-1.4.5/demos/js/jquery.mobile-1.4.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jquery.mobile-1.4.5/demos/js/jquery.mobile-1.4.5.min.js" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jquery.mobile-1.4.5/demos/js/jquery.mobile-1.4.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/logout.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/logout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/todolist.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/todolist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hit/controller/ToDoController.java" afterPath="$PROJECT_DIR$/src/com/hit/controller/ToDoController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hit/model/HibernateToDoListDAO.java" afterPath="$PROJECT_DIR$/src/com/hit/model/HibernateToDoListDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hit/model/IToDoListDAO.java" afterPath="$PROJECT_DIR$/src/com/hit/model/IToDoListDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hit/model/Item.java" afterPath="$PROJECT_DIR$/src/com/hit/model/Item.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hit/model/JDBC.java" afterPath="$PROJECT_DIR$/src/com/hit/model/JDBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hit/model/SessionsListener.java" afterPath="$PROJECT_DIR$/src/com/hit/model/SessionsListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hit/model/User.java" afterPath="$PROJECT_DIR$/src/com/hit/model/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Register.jsp" afterPath="$PROJECT_DIR$/web/Register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/administrator.jsp" afterPath="$PROJECT_DIR$/web/administrator.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/authentication.jsp" afterPath="$PROJECT_DIR$/web/authentication.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/create.jsp" afterPath="$PROJECT_DIR$/web/create.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/delete.jsp" afterPath="$PROJECT_DIR$/web/delete.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/edit.jsp" afterPath="$PROJECT_DIR$/web/edit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/exception.jsp" afterPath="$PROJECT_DIR$/web/exception.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jquery.mobile-1.4.5/demos/js/jquery.mobile-1.4.5.js" afterPath="$PROJECT_DIR$/web/jquery.mobile-1.4.5/demos/js/jquery.mobile-1.4.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jquery.mobile-1.4.5/demos/js/jquery.mobile-1.4.5.min.js" afterPath="$PROJECT_DIR$/web/jquery.mobile-1.4.5/demos/js/jquery.mobile-1.4.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js" afterPath="$PROJECT_DIR$/web/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js" afterPath="$PROJECT_DIR$/web/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/logout.jsp" afterPath="$PROJECT_DIR$/web/logout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/todolist.jsp" afterPath="$PROJECT_DIR$/web/todolist.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,13 +79,12 @@
       <file leaf-file-name="ToDoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hit/controller/ToDoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#doGet#0;class#ToDoController#0" expanded="false" />
-                <marker date="1518389915778" expanded="true" signature="928:3540" ph="{...}" />
-                <marker date="1518389915778" expanded="true" signature="3966:12464" ph="{...}" />
+                <marker date="1518717731351" expanded="true" signature="1113:4403" ph="{...}" />
+                <marker date="1518717731351" expanded="true" signature="4840:15019" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -39,8 +93,8 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="44" selection-end-column="34" />
+            <state relative-caret-position="135">
+              <caret line="9" column="71" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -49,52 +103,8 @@
       <file leaf-file-name="logout.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/logout.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="63" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JDBC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hit/model/JDBC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="73" lean-forward="false" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1518441164312" expanded="true" signature="934:970" ph="SELECT id,fe... items" />
-                <marker date="1518441164312" expanded="true" signature="1174:1190" ph="DROP TABLE i... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IToDoListDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hit/model/IToDoListDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hit/model/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="114" column="27" lean-forward="false" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="224">
+              <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -103,8 +113,38 @@
       <file leaf-file-name="authentication.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/authentication.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="240">
+              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/create.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="94" column="104" lean-forward="false" selection-start-line="94" selection-start-column="104" selection-end-line="94" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/delete.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1395">
+              <caret line="93" column="71" lean-forward="false" selection-start-line="93" selection-start-column="71" selection-end-line="93" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -113,8 +153,28 @@
       <file leaf-file-name="administrator.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/administrator.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="113">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-406">
+              <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todolist.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/todolist.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3826">
+              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -128,27 +188,13 @@
         <option value="Interface" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>paddi</find>
-      <find>3238</find>
-      <find>padding</find>
-      <find>table td</find>
-      <find>$</find>
-      <find>table</find>
-      <find>register</find>
-      <find>overf</find>
-      <find>btn-succes</find>
-      <find>btn-success</find>
-      <find>contai</find>
-      <find>http</find>
-      <find>p</find>
-      <find>time</find>
       <find>param1</find>
       <find>container</find>
       <find>message</find>
@@ -165,6 +211,20 @@
       <find>login</find>
       <find>error</find>
       <find>remem</find>
+      <find>Jse</find>
+      <find>succe</find>
+      <find>sys</find>
+      <find>body</find>
+      <find>html</find>
+      <find>name</find>
+      <find>contact</find>
+      <find>\npublic class MyFilter implements Filter \{\n    public void destroy\(\) \{\n    \}\n\n    public void doFilter\(ServletRequest request\, ServletResponse response\, FilterChain chain\) throws ServletException\, IOException\{\n\n        PrintWriter out\= response\.getWriter\(\)\;\n        out\.println\(\&quot;\&lt;BR\&gt;MYFILTER \(before\)\&lt;BR\&gt;\&lt;BR\&gt;\&quot;\)\;\n        chain\.doFilter\(request\,response\)\;\n        out\.println\(\&quot;\&lt;BR\&gt;MYFILTER \(after\)\&lt;BR\&gt;\&lt;BR\&gt;\&quot;\)\;\n    \}\n\n    public void init\(FilterConfig config\) throws ServletException \{\n\n    \}\n\n\}\n</find>
+      <find>send_form_email</find>
+      <find>email</find>
+      <find>gettin</find>
+      <find>getting</find>
+      <find>try</find>
+      <find>system</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,36 +243,42 @@
         <option value="$PROJECT_DIR$/web/redirect.jsp" />
         <option value="$PROJECT_DIR$/web/start.jsp" />
         <option value="$PROJECT_DIR$/web/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/com/hit/model/User.java" />
         <option value="$PROJECT_DIR$/web/bootstrap/css/create.css" />
         <option value="$PROJECT_DIR$/web/bootstrap/js/bootstrap-datetimepicker.js" />
         <option value="$PROJECT_DIR$/web/build/moment.js" />
         <option value="$PROJECT_DIR$/web/build/js/moment.js" />
         <option value="$PROJECT_DIR$/web/bootstrap/js/popper.min.js" />
         <option value="$PROJECT_DIR$/web/finishtask.jsp" />
-        <option value="$PROJECT_DIR$/src/com/hit/model/HibernateToDoListDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/hit/model/Item.java" />
-        <option value="$PROJECT_DIR$/src/com/hit/model/IToDoListDAO.java" />
         <option value="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/web/bootstrap/css/custom.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/administrator.jsp" />
-        <option value="$PROJECT_DIR$/src/com/hit/model/SessionsListener.java" />
-        <option value="$PROJECT_DIR$/web/administrator.jsp" />
-        <option value="$PROJECT_DIR$/web/authentication.jsp" />
-        <option value="$PROJECT_DIR$/web/contact.jsp" />
-        <option value="$PROJECT_DIR$/web/todolist.jsp" />
-        <option value="$PROJECT_DIR$/web/Register.jsp" />
-        <option value="$PROJECT_DIR$/web/exception.jsp" />
-        <option value="$PROJECT_DIR$/web/edit.jsp" />
-        <option value="$PROJECT_DIR$/web/delete.jsp" />
-        <option value="$PROJECT_DIR$/web/create.jsp" />
-        <option value="$PROJECT_DIR$/src/com/hit/controller/ToDoController.java" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/web/logout.jsp" />
-        <option value="$PROJECT_DIR$/src/com/hit/model/JDBC.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/web/email" />
+        <option value="$PROJECT_DIR$/web/contact2.jsp" />
+        <option value="$PROJECT_DIR$/web/contact.jsp" />
+        <option value="$PROJECT_DIR$/web/send_form_email.php" />
+        <option value="$PROJECT_DIR$/src/filter.xml" />
+        <option value="$PROJECT_DIR$/src/com/hit/model/MyFilter.java" />
+        <option value="$PROJECT_DIR$/web/authentication.jsp" />
+        <option value="$PROJECT_DIR$/src/com/hit/controller/MyFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/hit/model/HibernateToDoListDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/hit/model/Item.java" />
+        <option value="$PROJECT_DIR$/src/com/hit/model/IToDoListDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/hit/model/JDBC.java" />
+        <option value="$PROJECT_DIR$/src/com/hit/model/SessionsListener.java" />
+        <option value="$PROJECT_DIR$/src/com/hit/model/User.java" />
+        <option value="$PROJECT_DIR$/web/create.jsp" />
+        <option value="$PROJECT_DIR$/web/edit.jsp" />
+        <option value="$PROJECT_DIR$/web/exception.jsp" />
+        <option value="$PROJECT_DIR$/web/logout.jsp" />
+        <option value="$PROJECT_DIR$/web/Register.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/web/todolist.jsp" />
+        <option value="$PROJECT_DIR$/src/com/hit/controller/ToDoController.java" />
+        <option value="$PROJECT_DIR$/web/administrator.jsp" />
+        <option value="$PROJECT_DIR$/web/delete.jsp" />
       </list>
     </option>
   </component>
@@ -236,10 +302,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -256,9 +322,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,6 +364,9 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +377,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
@@ -343,7 +409,7 @@
     <configuration name="HibernateToDoListDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.hit.model.*" />
+          <option name="PATTERN" value="com.hit.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,7 +428,7 @@
     <configuration name="JDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.hit.model.*" />
+          <option name="PATTERN" value="com.hit.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -606,15 +672,19 @@
       <workItem from="1518180744636" duration="8305000" />
       <workItem from="1518210768297" duration="32890000" />
       <workItem from="1518401579920" duration="10000" />
-      <workItem from="1518401924161" duration="1914000" />
+      <workItem from="1518401924161" duration="21028000" />
+      <workItem from="1518521150371" duration="7139000" />
+      <workItem from="1518640154993" duration="4158000" />
+      <workItem from="1518684487684" duration="11492000" />
+      <workItem from="1518698048550" duration="9150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316465000" />
+    <option name="totallyTimeSpent" value="367518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -629,17 +699,18 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3974359" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41980475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36396614" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22031474" sideWeight="0.625" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28397712" sideWeight="0.375" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23175965" sideWeight="0.7661597" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23175965" sideWeight="0.2338403" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32648125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -647,7 +718,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -694,24 +764,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/hit/model/HibernateToDoListDAO.java</url>
-          <line>194</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hit/model/HibernateToDoListDAO.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hit/model/HibernateToDoListDAO.java</url>
-          <line>150</line>
+          <line>156</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -720,65 +778,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/hit/model/HibernateToDoListDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="199" column="1" lean-forward="false" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
-          <folding>
-            <element signature="method#HibernateToDoListDAO#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#getInstance#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#InsertItem#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#GetItem#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#UpdateItem#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#DeleteItem#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#DeleteUser#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#Register#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#InsertRegister#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#DeleteUserItem#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#GetUser#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#Login#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#GetItemList#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#main#0;class#HibernateToDoListDAO#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/model/IToDoListDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/model/JDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTott/login.jsp" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp" />
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/ToDoList_war_exploded.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -822,23 +821,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jquery-3.2.1.min.js" />
     <entry file="file://$PROJECT_DIR$/web/bootstrap/css/bootstrap.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ToDoList.iml">
@@ -890,15 +889,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/model/User.java">
+    <entry file="file://$PROJECT_DIR$/web/finishtask.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="100" column="18" lean-forward="false" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/finishtask.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/com/hit/model/JDBC example.java" />
+    <entry file="file://$PROJECT_DIR$/web/bootstrap/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bootstrap/journal-791286_1920.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/contact.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/send_form_email.php" />
+    <entry file="file://$PROJECT_DIR$/web/contact2.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/filter.xml" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -907,189 +930,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/model/HibernateToDoListDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hit/controller/MyFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="method#HibernateToDoListDAO#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#getInstance#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#InsertItem#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#GetItem#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#UpdateItem#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#DeleteItem#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#DeleteUser#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#Register#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#InsertRegister#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#DeleteUserItem#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#GetUser#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#Login#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#GetItemList#0;class#HibernateToDoListDAO#0" expanded="false" />
-            <element signature="method#main#0;class#HibernateToDoListDAO#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/model/SessionsListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        <state relative-caret-position="660">
+          <caret line="44" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
+    <entry file="file://$PROJECT_DIR$/src/com/hit/model/HibernateToDoListDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/todolist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="182" column="46" lean-forward="false" selection-start-line="182" selection-start-column="41" selection-end-line="182" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="63" column="38" lean-forward="true" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/exception.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/delete.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/create.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/contact.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/authentication.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/administrator.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="44" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/logout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="63" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="969">
+          <caret line="153" column="4" lean-forward="false" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
+          <folding>
+            <element signature="method#main#0;class#HibernateToDoListDAO#0" expanded="false" />
+            <element signature="method#DeleteItem#0;class#HibernateToDoListDAO#0" expanded="false" />
+            <element signature="method#DeleteUser#0;class#HibernateToDoListDAO#0" expanded="false" />
+            <element signature="method#DeleteUserItem#0;class#HibernateToDoListDAO#0" expanded="false" />
+            <element signature="method#GetUser#0;class#HibernateToDoListDAO#0" expanded="false" />
+            <element signature="method#GetItemList#0;class#HibernateToDoListDAO#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hit/model/IToDoListDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="114" column="27" lean-forward="false" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/controller/ToDoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#doGet#0;class#ToDoController#0" expanded="false" />
-            <marker date="1518389915778" expanded="true" signature="928:3540" ph="{...}" />
-            <marker date="1518389915778" expanded="true" signature="3966:12464" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/model/JDBC example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="1470">
+          <caret line="99" column="19" lean-forward="false" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hit/model/JDBC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="73" lean-forward="false" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+        <state relative-caret-position="360">
+          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1518441164312" expanded="true" signature="934:970" ph="SELECT id,fe... items" />
-            <marker date="1518441164312" expanded="true" signature="1174:1190" ph="DROP TABLE i... " />
+            <marker date="1518717035491" expanded="true" signature="916:952" ph="SELECT id,fe... items" />
+            <marker date="1518717035491" expanded="true" signature="1150:1166" ph="DROP TABLE i... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hit/model/SessionsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding>
+            <element signature="e#579#580#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#718#719#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hit/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="175" column="6" lean-forward="false" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
+          <folding>
+            <element signature="e#1531#1532#0" expanded="false" />
+            <element signature="e#1558#1559#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hit/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="e#973#974#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/exception.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hit/controller/ToDoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1518717731351" expanded="true" signature="1113:4403" ph="{...}" />
+            <marker date="1518717731351" expanded="true" signature="4840:15019" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="71" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="94" column="104" lean-forward="false" selection-start-line="94" selection-start-column="104" selection-end-line="94" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/authentication.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/administrator.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="71" lean-forward="false" selection-start-line="93" selection-start-column="71" selection-end-line="93" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-406">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/todolist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3826">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>

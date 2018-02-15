@@ -8305,7 +8305,7 @@ $.widget( "mobile.textinput", {
 		"input[type='number']," +
 		":jqmData(type='number')," +
 		"input[type='password']," +
-		"input[type='email']," +
+		"input[type='send_form_email.php']," +
 		"input[type='url']," +
 		"input[type='tel']," +
 		"textarea," +
