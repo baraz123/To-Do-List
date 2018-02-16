@@ -1,8 +1,10 @@
 package com.hit.controller;
+
 import com.hit.model.HibernateToDoListDAO;
 import com.hit.model.Item;
 import com.hit.model.SessionsListener;
 import com.hit.model.User;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -239,7 +241,7 @@ public class ToDoController extends HttpServlet {
                 }
                 break;
             /**
-             *
+             * Gets the Items from the database and sort them according their status.
              */
             case "/todolist.jsp":
                 session = request.getSession(true);
@@ -272,7 +274,9 @@ public class ToDoController extends HttpServlet {
                 }
 
                 break;
-
+            /**
+             * allows the user edit his Item
+             */
             case "/edit.jsp":
                 long id = getId();
                 title = request.getParameter("title");
@@ -302,6 +306,9 @@ public class ToDoController extends HttpServlet {
                 dispatcher = request.getRequestDispatcher("/edit.jsp");
                 dispatcher.forward(request, response);
                 break;
+            /**
+             * Delete the current item from datababse
+             */
             case "/delete.jsp":
                 setId(Long.parseLong(request.getParameter("id")));
                 id = getId();
