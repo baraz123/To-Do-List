@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6efb883-0a23-4b0c-9b4a-0a9a04864835" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hit/controller/ToDoController.java" afterPath="$PROJECT_DIR$/src/com/hit/controller/ToDoController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -663,12 +663,12 @@
       <workItem from="1518684487684" duration="11492000" />
       <workItem from="1518698048550" duration="13038000" />
       <workItem from="1518736776005" duration="1480000" />
-      <workItem from="1518792218642" duration="1623000" />
+      <workItem from="1518792218642" duration="1838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="374509000" />
+    <option name="totallyTimeSpent" value="374724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
