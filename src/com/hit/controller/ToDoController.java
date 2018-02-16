@@ -123,8 +123,6 @@ public class ToDoController extends HttpServlet {
             case "/authentication.jsp":
                 String user = request.getParameter("username");
                 String pass = request.getParameter("password");
-                System.out.println(user);
-                System.out.println(pass);
                 boolean res = HibernateToDoListDAO.getInstance().Login(user, pass);
                 /**
                  ** If the user exists in the system we will open a session with a session attribute of his details
