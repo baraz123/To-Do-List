@@ -13,15 +13,12 @@ The application built according to MVC module.
 3) Java workspace - IntelliJ (recommended).
 ### Components
 #### Model
-1) Hibernate.
-2) JDBC.
-3) JAVA OOP.
+Hibernate, JDBC, Java classes.
 #### Controller
-1) Servlets.
+Servlets, Java classes.
 #### View 
-1) JSP pages.
-2) Bootstrap.
-## Several looks on the Application
+JSP pages, Bootstrap.
+## To Do List - site pages
 This Application goal is to build an easy user interface for managing your messions.
 The application including Login/Main/Administrator pages.
 ### Part of the APP functionality
@@ -30,7 +27,7 @@ The application including Login/Main/Administrator pages.
 #### Main Page
 ![image](https://user-images.githubusercontent.com/26563627/42325780-ea6d3bf6-806f-11e8-84d9-48440e3bfec3.png)
 #### Administrator page
-Admin have the ability to see active sessions in real time and also the login timestamp in UNIX time.
+Admin have the ability to see active sessions in real time and also when to know when they started.
 ![image](https://user-images.githubusercontent.com/26563627/42325864-28623470-8070-11e8-9619-ae5235bc3a38.png)
 #### Drop-down menu and search box
 ![image](https://user-images.githubusercontent.com/26563627/42325953-5e267f26-8070-11e8-8ada-50cde41ee588.png)
